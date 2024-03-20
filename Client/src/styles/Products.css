@@ -1,0 +1,55 @@
+.products{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.tipFilterBar{
+    width: 100vw;
+    background-color: #9e9d9d3d;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.tipFilterBar button{
+    color: black;
+    height: 3rem;
+    border: none;
+}
+
+.tipFilterBar button:hover{
+    background-color: #9e9d9d3d;
+    color: white;
+}
+
+.tipDugme.active{
+    background-color: #9e9d9d3d;
+}
+
+.prikaziSve:hover{
+    background-color: darkblue;
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+  }
+
+.products input{
+  width: 20vw;
+  height: 7vh;
+  border-radius: 16px;
+}
+
+.products-wrapper1{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+  
